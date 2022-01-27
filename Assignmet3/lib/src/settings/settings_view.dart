@@ -17,7 +17,15 @@ class SettingsView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Settings'),
+        toolbarHeight: 150,
+        backgroundColor: Colors.grey,
+        title: Center(
+          child: Text('Settings'),
+        ),
+        titleTextStyle: TextStyle(
+          color: Colors.black,
+          fontSize: 20,
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),

@@ -10,7 +10,15 @@ class SampleItemDetailsView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Item Details'),
+        toolbarHeight: 150,
+        backgroundColor: Colors.grey,
+        title: Center(
+          child: Text('Simple Invertory Managment'),
+        ),
+        titleTextStyle: TextStyle(
+          color: Colors.black,
+          fontSize: 20,
+        ),
       ),
       body: const Center(
         child: Text('More Information Here'),
